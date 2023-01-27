@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+h1 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: xx-large;
+    font-style:normal;
+    font-weight: 80px;
+    color: darkblue;
+    text-align: center;
+    text-shadow: 2px 2px white;
+    text-decoration: overline;
+    text-decoration-color: darkblue;
+    box-sizing: content-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+    border-color: darkblue;
+    box-shadow: 5px 5px white;
+}
+
+p, .experiencia, .infoperso, .habilidades {
+    font-family:'Paytone One', sans-serif;
+    color: darkblue;
+    font-weight: 30px;
+    font-size: medium;
+    font-style:normal;
+    color: darkblue;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    box-sizing: content-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 60px; 
+}
+
+.button {
+    font-family: 'Paytone One', sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    font-variant: small-caps;
+    color: darkblue;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    border: 5px outset darkblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px white;
+    background-color:#ffed4b; /*dorado*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 130px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.boton1, .boton2, .boton3 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    font-variant: small-caps;
+    color: darkblue;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    border: 5px outset darkblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px white;
+    background-color:#ffed4b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 130px;
+    cursor: pointer;
+  }
+
+.boton1:hover, .boton2:hover, .boton3:hover {
+    font-family: 'Paytone One', sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    font-variant: small-caps;
+    color:#fdcd3b;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border: 5px outset goldenrod;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px black;
+    background-color: darkblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 130px;
+}
+

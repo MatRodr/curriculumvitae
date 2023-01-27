@@ -1,0 +1,13 @@
+{
+    "nombre": "Pablo David",
+    "apellido": "Ramirez",
+    "edad": "39",
+    "email": "pablodavidramirez@gmail.com",
+    "domicilio": "24 de Septiembre 558",
+    "ciudad": "San Miguel de Tucumán",
+    "provincia": "Tucumán",
+    "cp": "4000",
+    "telefono": "3815555333",
+    "nacionalidad": "Argentino",
+    "estado civil": "Casado"
+}

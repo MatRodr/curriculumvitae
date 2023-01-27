@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <meta property="og:url" content="http://www.example.com" />
+    <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/2666/2666451.png" />
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/2666/2666451.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/f128aa7472.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>CURRICULUM VITAE</h1>
+
+    <img src="https://opem.b-cdn.net/wp-content/uploads/2022/10/curriculum-foto.jpg" width="250px" height="200px" alt="Esta es mi foto de perfil">
+    
+
+<button type="button" id="btn1" class="boton1">Información Personal</button> 
+
+<button type="button" id="btn2" class="boton2" >Experiencia</button>
+
+<button type="button" id="btn3" class="boton3">Habilidades</button>
+
+<p id="demo"></p>
+<form class="infoperso" id="infoperso">
+    <i class="fa-solid fa-user"></i>
+    <label for="nombre">Nombre: Pablo David</label><br>
+    <i class="fa-solid fa-address-card"></i>
+    <label for="apellido">Apellido: Ramirez</label><br>
+    <i class="fa-solid fa-calendar-days"></i>
+    <label for="fechadenacimiento">Fecha de Nacimiento: 24/09/1983</label><br>
+    <i class="fa-solid fa-envelope"></i>
+    <label for="email">Email: pablodavidramirez@gmail.com</label><br>
+    <i class="fa-solid fa-ring"></i>
+    <label for="estado civil">Estado Civil: Casado</label><br>
+    <i class="fa-solid fa-house"></i>
+    <label for="domicilio">Domicilio: 24 de Septiembre 558</label><br>
+    <i class="fa-solid fa-city"></i>
+    <label for="ciudad-provincia">Ciudad-Provincia: San Miguel de Tucumán-Tucumán</label><br>
+    <i class="fa-solid fa-phone"></i>
+    <label for="teléfono">Telefono: 3815333555</label><br>
+</form>
+
+<p id="demo1"></p> 
+<script>
+    const persona = '{"nombre":"Pablo David","apellido":"Ramirez","edad":"39","email":"pablodavidramirez@gmail.com","domicilio":"24 de Septiembre 558","ciudad":"San Miguel de Tucumán","provincia":"Tucumán","cp":"4000","telefono":"3815555333","nacionalidad":"Argentino","estadocivil":"Casado"}';
+    const obj = JSON.parse(persona);
+    console.log(obj);
+    document.getElementById("demo1").innerHTML = 
+    "Nombre:" +obj.nombre + 
+    "Apellido:" +obj.apellido + 
+    "Edad:" +obj.edad + 
+    "E-mail:" +obj.email + 
+    "Domicilio:" +obj.domicilio + 
+    "Ciudad:" +obj.ciudad + 
+    "Ciudad:" +obj.ciudad +
+    "Provincia:" +obj.provincia +
+    "CP:" +obj.cp +
+    "Telefono:" +obj.telefono +
+    "Nacionalidad:" +obj.nacionalidad +
+    "Estado Civil:" +obj.estadocivil;
+</script>
+
+<p id="demo2" class="experiencia">
+CAMARERO <br>
+Eurostars Hotel Company - Valencia <br>
+Septiembre de 2018 - Presente <br>
+Conocimiento de la carta con una selección de 60 platos <br>
+Realización de 40 comandas diarias <br>
+Recomendación de Vinos entre una selección de 25 botellas <br>
+Organización y preparación de 50 mesas, colaborando con 5 camareros <br>
+Gestión de pagos con facturas <br>
+Preparación del restaurante para eventos empresariales <br>
+</p>
+
+<p id="demo3" class="habilidades">
+Una buena comunicación verbal <br>
+Asumir las críticas de forma constructiva <br>
+Capacidad organizativa <br>
+La facilidad para trabajar en equipo <br>
+La capacidad de liderazgo <br>
+El pensamiento crítico/lógico <br>
+Las habilidades comunicativas <br>
+El poder ser multitarea <br>
+</p>
+
+<script src="js/funciones.js"></script>
+
+</body>
+</html>
